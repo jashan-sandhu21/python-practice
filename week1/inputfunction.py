@@ -1,2 +1,1 @@
-Name = input ("What is your name ?")
-print(len(Name))
+print(len(input ("What is your name ?")))
