@@ -1,0 +1,6 @@
+Age = int(input("Enter your current age:"))
+years_remaining = 90 - Age
+days_remaining = years_remaining * 365
+weeks_remaining = years_remaining * 52
+months_remaining = years_remaining * 12
+print(f"you have {days_remaining} days, {weeks_remaining} weeks, {months_remaining} months left ")
